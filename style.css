@@ -1,0 +1,133 @@
+
+/* ページ全体 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+  margin: 0;
+  padding: 30px 16px;
+}
+
+/* ヘッダー */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: #777777;
+  font-size: 14px;
+}
+
+/* メイン画面 */
+#app {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* STEPボタン共通 */
+.step-button {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 16px;
+  border: none;
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* STEPごとの色 */
+.step1 {
+  background-color: #E84C4C;
+}
+
+.step2 {
+  background-color: #3685DB;
+}
+
+.step-last {
+  background-color: #35A66A;
+}
+
+/* マウスを乗せたとき */
+.step-button:hover {
+  opacity: 0.85;
+}
+
+/* STEPの中身 */
+.step-content {
+  display: none;
+  padding: 8px 0 8px 12px;
+}
+
+.step-content.open {
+  display: block;
+}
+
+/* 問題ボタン */
+.item-button {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 8px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #333333;
+  font-size: 17px;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 問題の中身 */
+.problem-content {
+  display: none;
+  padding: 4px 0 8px 12px;
+}
+
+.problem-content.open {
+  display: block;
+}
+
+/* ヒントのボタン */
+.hint-button {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 6px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  background: #f7f7f7;
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ヒントの本文 */
+.hint-content {
+  display: none;
+  padding: 14px;
+  margin-bottom: 10px;
+  background: #f0f0f0;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.hint-content.open {
+  display: block;
+}
