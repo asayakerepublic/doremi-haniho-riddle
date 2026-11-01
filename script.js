@@ -1,3 +1,4 @@
+import { Message } from "./message.js";
 
 const app = document.getElementById("app");
 
@@ -9,7 +10,7 @@ const steps = [
     problems: [
       {
         name: "問題1",
-        hints: ["ヒント①の内容", "ヒント②の内容"]
+        hints: [Message.ILLUST_INSIDE, "ヒント②の内容"]
       },
       {
         name: "問題2",
@@ -32,7 +33,7 @@ const steps = [
     ]
   },
   {
-    name: "STEP Last",
+    name: "STEP LAST",
     className: "step-last",
     problems: [
       {
@@ -60,14 +61,13 @@ function showSteps() {
         <span>${openedSteps.includes(stepIndex) ? "⌄" : "›"}</span>
       </button>
 
-      <div class="step-content ${
-        openedSteps.includes(stepIndex) ? "open" : ""
-      }">
+      <div class="step-content ${openedSteps.includes(stepIndex) ? "open" : ""
+    }">
 
         ${step.problems.map((problem, problemIndex) => {
-          const problemKey = `${stepIndex}-${problemIndex}`;
+      const problemKey = `${stepIndex}-${problemIndex}`;
 
-          return `
+      return `
             <div class="problem-item">
 
               <button
@@ -75,44 +75,40 @@ function showSteps() {
                 data-problem-step="${stepIndex}"
                 data-problem="${problemIndex}">
                 ${problem.name}
-                <span>${
-                  openedProblems.includes(problemKey) ? "⌄" : "›"
-                }</span>
+                <span>${openedProblems.includes(problemKey) ? "⌄" : "›"
+        }</span>
               </button>
 
-              <div class="problem-content ${
-                openedProblems.includes(problemKey) ? "open" : ""
-              }">
+              <div class="problem-content ${openedProblems.includes(problemKey) ? "open" : ""
+        }">
 
                 ${problem.hints.map((hint, hintIndex) => {
-                  const hintKey = `${stepIndex}-${problemIndex}-${hintIndex}`;
+          const hintKey = `${stepIndex}-${problemIndex}-${hintIndex}`;
 
-                  return `
+          return `
                     <div class="hint-item">
 
                       <button
                         class="hint-button"
                         data-hint="${hintKey}">
                         ヒント${["①", "②", "③", "④", "⑤"][hintIndex] || hintIndex + 1}
-                        <span>${
-                          openedHints.includes(hintKey) ? "⌄" : "›"
-                        }</span>
+                        <span>${openedHints.includes(hintKey) ? "⌄" : "›"
+            }</span>
                       </button>
 
-                      <div class="hint-content ${
-                        openedHints.includes(hintKey) ? "open" : ""
-                      }">
+                      <div class="hint-content ${openedHints.includes(hintKey) ? "open" : ""
+            }">
                         ${hint}
                       </div>
 
                     </div>
                   `;
-                }).join("")}
+        }).join("")}
 
               </div>
             </div>
           `;
-        }).join("")}
+    }).join("")}
 
       </div>
     </div>
