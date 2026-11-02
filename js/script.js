@@ -1,7 +1,7 @@
 
-import { STEP1 } from "./steps/step1.js";
-import { STEP2 } from "./steps/step2.js";
-import { STEP_LAST } from "./steps/stepLast.js";
+import { STEP1 } from "./step/step1/step1.js";
+import { STEP2 } from "./step/step2/step2.js";
+import { STEP_LAST } from "./step/stepLast/stepLast.js";
 
 const app = document.getElementById("app");
 
