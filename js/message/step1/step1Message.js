@@ -7,9 +7,18 @@ export const step1Message = {
 
     ILLUST_INSIDE: "黒塗りに入るイラストの確認",
 
+    HINT_NUM_1: "ヒント①",
+
+    HINT_NUM_2: "ヒント②",
+
+    ANS: "答え",
+
     QUESTION_DO: {
         QUESTION: "5色の丸が並んでいる謎",
-        ILLUST: "「トランプのエース」" + ILLUST_MESSAGE_END
+        ILLUST: "「トランプのエース」" + ILLUST_MESSAGE_END,
+        HINT_1: "イラストは「ACE」です。",
+        HINT_2: "アルファベット順で考えましょう。",
+        ANS: "答えは「BED」です。"
     },
     QUESTION_RE: {
         QUESTION: "紫色と緑色の矢印がある謎",
@@ -20,7 +29,10 @@ export const step1Message = {
         ILLUST_1: "「タコ」" + ILLUST_MESSAGE_END,
         ILLUST_2: "「ライオン」" + ILLUST_MESSAGE_END,
         ILLUST_3: "「サメ」" + ILLUST_MESSAGE_END,
-        ILLUST_4: "「ゴリラ」" + ILLUST_MESSAGE_END
+        ILLUST_4: "「ゴリラ」" + ILLUST_MESSAGE_END,
+        HINT_1: "紫色の矢印は「偶数文字目だけを読む」です。",
+        HINT_2: "緑色の矢印は「1文字目を五十音で1つ進める」です。",
+        ANS: "答えは「ネックレス」です。"
 
 
     },
@@ -31,12 +43,18 @@ export const step1Message = {
         ILLUST_INSIDE_3: "右上の黒塗りに入るイラストの確認",
         ILLUST_1: "「柿」" + ILLUST_MESSAGE_END,
         ILLUST_2: "「菊」" + ILLUST_MESSAGE_END,
-        ILLUST_3: "「マイク」" + ILLUST_MESSAGE_END
+        ILLUST_3: "「マイク」" + ILLUST_MESSAGE_END,
+        HINT_1: "例示では「か」が「き」に、「き」が「く」に変化しています。",
+        HINT_2: "「マイク」も同様に五十音表で1つすつ進めましょう。1文字目が最後にきているのにも注意です。",
+        ANS: "答えは「ウケミ」です。"
 
     },
     QUESTION_FA: {
         QUESTION: "「発布」と書かれている謎",
-        ILLUST: "「STOP」" + ILLUST_MESSAGE_END
+        ILLUST: "「STOP」" + ILLUST_MESSAGE_END,
+        HINT_1: "「ハップ」が「はがすと」の矢印で「ストップ」に変化しています。",
+        HINT_2: "「はがすと」を「『は』が『すと』になる」と考えましょう。\n「みがくと」も同様に「『み』が『くと』になる」と考えましょう。",
+        ANS: "答えは「ファクトリー」です。"
 
     },
     QUESTION_SO: {
