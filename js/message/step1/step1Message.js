@@ -11,6 +11,8 @@ export const step1Message = {
 
     HINT_NUM_2: "ヒント②",
 
+    HINT_NUM_3: "ヒント③",
+
     ANS: "答え",
 
     QUESTION_DO: {
