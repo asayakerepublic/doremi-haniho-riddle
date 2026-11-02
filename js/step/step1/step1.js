@@ -161,8 +161,20 @@ export const STEP1 = {
                     content: step1Message.QUESTION_SHI.ILLUST
                 },
                 {
-                    name: "ヒント①",
-                    content: "問題シのヒント①の内容"
+                    name: step1Message.HINT_NUM_1,
+                    content: step1Message.QUESTION_SHI.HINT_1
+                },
+                {
+                    name: step1Message.HINT_NUM_2,
+                    content: step1Message.QUESTION_SHI.HINT_2
+                },
+                {
+                    name: step1Message.HINT_NUM_3,
+                    content: step1Message.QUESTION_SHI.HINT_3
+                },
+                {
+                    name: step1Message.ANS,
+                    content: step1Message.QUESTION_SHI.ANS
                 }
             ]
         },
@@ -172,22 +184,6 @@ export const STEP1 = {
                 {
                     name: step1Message.ILLUST_INSIDE,
                     content: step1Message.QUESTION_RA.ILLUST
-                },
-                {
-                    name: step1Message.HINT_NUM_1,
-                    content: step1Message.QUESTION_RA.HINT_1
-                },
-                {
-                    name: step1Message.HINT_NUM_2,
-                    content: step1Message.QUESTION_RA.HINT_2
-                },
-                {
-                    name: step1Message.HINT_NUM_3,
-                    content: step1Message.QUESTION_RA.HINT_3
-                },
-                {
-                    name: step1Message.ANS,
-                    content: step1Message.QUESTION_RA.ANS
                 }
             ]
         }
