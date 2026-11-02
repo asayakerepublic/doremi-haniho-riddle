@@ -18,7 +18,7 @@ export const step1Message = {
         ILLUST: "「トランプのエース」" + ILLUST_MESSAGE_END,
         HINT_1: "イラストは「ACE」です。",
         HINT_2: "アルファベット順で考えましょう。",
-        ANS: "答えは「BED」です。"
+        ANS: "答えは「ベッド」です。"
     },
     QUESTION_RE: {
         QUESTION: "紫色と緑色の矢印がある謎",
@@ -30,8 +30,8 @@ export const step1Message = {
         ILLUST_2: "「ライオン」" + ILLUST_MESSAGE_END,
         ILLUST_3: "「サメ」" + ILLUST_MESSAGE_END,
         ILLUST_4: "「ゴリラ」" + ILLUST_MESSAGE_END,
-        HINT_1: "紫色の矢印は「偶数文字目だけを読む」です。",
-        HINT_2: "緑色の矢印は「1文字目を五十音で1つ進める」です。",
+        HINT_1: "パープルの矢印は「偶数文字目だけを読む」です。",
+        HINT_2: "グリーンの矢印は「1文字目を五十音で1つ進める」です。",
         ANS: "答えは「ネックレス」です。"
 
 
@@ -62,7 +62,11 @@ export const step1Message = {
         ILLUST_INSIDE_1: "右上の黒塗りに入るイラストの確認",
         ILLUST_INSIDE_2: "右真ん中の黒塗りに入るイラストの確認",
         ILLUST_1: "「ナース」" + ILLUST_MESSAGE_END,
-        ILLUST_2: "「地球」" + ILLUST_MESSAGE_END
+        ILLUST_2: "「地球」" + ILLUST_MESSAGE_END,
+        HINT_1: "それぞれの色の矢印がどのマスからどのマスへ向かっているか考えましょう。\n「地球」のイラストは「アース」と読みます。",
+        HINT_2: "枠は五十音表の右5行を表しています。",
+        HINT_3: "マゼンタの矢印は「な」から「す」、シアンの矢印は「あ」から「す」に向かっています。\nイエローの矢印は「そ」から「す」に向かっています。",
+        ANS: "答えは「ソース」です。"
 
     },
     QUESTION_RA: {
@@ -72,7 +76,11 @@ export const step1Message = {
     },
     QUESTION_SHI: {
         QUESTION: "縦横に点線の入った正方形が3つある謎",
-        ILLUST: "「バイク」" + ILLUST_MESSAGE_END
+        ILLUST: "「バイク」" + ILLUST_MESSAGE_END,
+        HINT_1: "正方形にはそれぞれ漢字1文字が入ります。",
+        HINT_2: "「バイク」の例示と不等号の関係から何の漢字が入るか考えましょう。",
+        HINT_3: "それぞれ「松」「竹」「梅」が入りそうです",
+        ANS: "答えは「シチョウ」です。"
 
     },
 
