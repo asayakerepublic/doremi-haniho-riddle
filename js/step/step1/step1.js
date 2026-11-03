@@ -6,9 +6,29 @@ export const STEP1 = {
     className: "step1",
     children: [
         {
+            name: step1Message.QUESTION_FA.QUESTION,
+            children: [
+                {
+                    name: step1Message.QUESTION_FA.ILLUST_INSIDE,
+                    content: step1Message.QUESTION_FA.ILLUST
+                },
+                {
+                    name: defaultMessage.HINT_NUM_1,
+                    content: step1Message.QUESTION_FA.HINT_1
+                },
+                {
+                    name: defaultMessage.HINT_NUM_2,
+                    content: step1Message.QUESTION_FA.HINT_2
+                },
+                {
+                    name: defaultMessage.ANS,
+                    content: step1Message.QUESTION_FA.ANS
+                }
+            ]
+        },
+        {
             name: step1Message.QUESTION_RE.QUESTION,
             children: [
-
                 {
                     name: step1Message.QUESTION_RE.ILLUST_INSIDE_1,
                     content: step1Message.QUESTION_RE.ILLUST_1
@@ -36,6 +56,61 @@ export const STEP1 = {
                 {
                     name: defaultMessage.ANS,
                     content: step1Message.QUESTION_RE.ANS
+                }
+            ]
+        },
+        {
+            name: step1Message.QUESTION_RA.QUESTION,
+            children: [
+                {
+                    name: step1Message.QUESTION_RA.ILLUST_INSIDE,
+                    content: step1Message.QUESTION_RA.ILLUST
+                }
+            ]
+        },
+        {
+            name: step1Message.QUESTION_DO.QUESTION,
+            children: [
+                {
+                    name: step1Message.QUESTION_DO.ILLUST_INSIDE,
+                    content: step1Message.QUESTION_DO.ILLUST
+                },
+                {
+                    name: defaultMessage.HINT_NUM_1,
+                    content: step1Message.QUESTION_DO.HINT_1
+                },
+                {
+                    name: defaultMessage.HINT_NUM_2,
+                    content: step1Message.QUESTION_DO.HINT_2
+                },
+                {
+                    name: defaultMessage.ANS,
+                    content: step1Message.QUESTION_DO.ANS
+                }
+            ]
+        },
+        {
+            name: step1Message.QUESTION_SHI.QUESTION,
+            children: [
+                {
+                    name: step1Message.QUESTION_SHI.ILLUST_INSIDE,
+                    content: step1Message.QUESTION_SHI.ILLUST
+                },
+                {
+                    name: defaultMessage.HINT_NUM_1,
+                    content: step1Message.QUESTION_SHI.HINT_1
+                },
+                {
+                    name: defaultMessage.HINT_NUM_2,
+                    content: step1Message.QUESTION_SHI.HINT_2
+                },
+                {
+                    name: defaultMessage.HINT_NUM_3,
+                    content: step1Message.QUESTION_SHI.HINT_3
+                },
+                {
+                    name: defaultMessage.ANS,
+                    content: step1Message.QUESTION_SHI.ANS
                 }
             ]
         },
@@ -95,83 +170,6 @@ export const STEP1 = {
                 {
                     name: defaultMessage.ANS,
                     content: step1Message.QUESTION_MI.ANS
-                }
-            ]
-        },
-        {
-            name: step1Message.QUESTION_DO.QUESTION,
-            children: [
-                {
-                    name: step1Message.QUESTION_DO.ILLUST_INSIDE,
-                    content: step1Message.QUESTION_DO.ILLUST
-                },
-                {
-                    name: defaultMessage.HINT_NUM_1,
-                    content: step1Message.QUESTION_DO.HINT_1
-                },
-                {
-                    name: defaultMessage.HINT_NUM_2,
-                    content: step1Message.QUESTION_DO.HINT_2
-                },
-                {
-                    name: defaultMessage.ANS,
-                    content: step1Message.QUESTION_DO.ANS
-                }
-            ]
-        },
-
-        {
-            name: step1Message.QUESTION_FA.QUESTION,
-            children: [
-                {
-                    name: step1Message.QUESTION_FA.ILLUST_INSIDE,
-                    content: step1Message.QUESTION_FA.ILLUST
-                },
-                {
-                    name: defaultMessage.HINT_NUM_1,
-                    content: step1Message.QUESTION_FA.HINT_1
-                },
-                {
-                    name: defaultMessage.HINT_NUM_2,
-                    content: step1Message.QUESTION_FA.HINT_2
-                },
-                {
-                    name: defaultMessage.ANS,
-                    content: step1Message.QUESTION_FA.ANS
-                }
-            ]
-        },
-        {
-            name: step1Message.QUESTION_SHI.QUESTION,
-            children: [
-                {
-                    name: step1Message.QUESTION_SHI.ILLUST_INSIDE,
-                    content: step1Message.QUESTION_SHI.ILLUST
-                },
-                {
-                    name: defaultMessage.HINT_NUM_1,
-                    content: step1Message.QUESTION_SHI.HINT_1
-                },
-                {
-                    name: defaultMessage.HINT_NUM_2,
-                    content: step1Message.QUESTION_SHI.HINT_2
-                },
-                {
-                    name: defaultMessage.HINT_NUM_3,
-                    content: step1Message.QUESTION_SHI.HINT_3
-                },
-                {
-                    name: defaultMessage.ANS,
-                    content: step1Message.QUESTION_SHI.ANS
-                }
-            ]
-        },
-        {
-            name: step1Message.QUESTION_RA.QUESTION,
-            children: [
-                {
-                    name: step1Message.QUESTION_RA.ILLUST_INSIDE,
-                    content: step1Message.QUESTION_RA.ILLUST
                 }
             ]
         }
