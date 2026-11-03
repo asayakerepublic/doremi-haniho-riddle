@@ -1,11 +1,13 @@
+import { defaultMessage } from "../../message/defaultMessage.js";
+import { step2Message } from "../../message/step2/step2Message.js";
 
 export const STEP2 = {
     name: "STEP2",
     className: "step2",
     children: [
         {
-            name: "問題番号の確認",
-            content: "問題番号の確認内容",
+            name: step2Message.COMBINATION_CHECK,
+            content: step2Message.QUESTION_NUM,
             children: [
                 {
                     name: "問題①",
