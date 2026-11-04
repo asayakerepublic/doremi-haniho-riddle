@@ -46,9 +46,23 @@ function renderItem(item, path, depth = 0) {
 
       ${isOpen ? `
         <div class="tree-content">
+        
+          ${hasContent || item.image ? `
+              <div class="tree-content-inner">
 
-          ${hasContent ? `
-            <div class="content-text">${item.content}</div>
+                  ${hasContent ? `
+                      <div class="content-text">${item.content}</div>
+                  ` : ""}
+
+                  ${item.image ? `
+                      <img
+                          src="${item.image}"
+                          class="hint-image"
+                          alt="ヒント画像"
+                      >
+                  ` : ""}
+
+              </div>
           ` : ""}
 
           ${hasChildren ? `

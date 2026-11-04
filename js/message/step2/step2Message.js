@@ -39,8 +39,8 @@ export const step2Message = {
         COMBINATION_ABLE_MESSAGE: "D" + COMBINATION_ABLE_MESSAGE_END,
         HINT_CD: "CとDの",
         HINT_CD_1: "5色のピースをスケルトンの盤面として考えてみましょう。",
-        HINT_CD_2: "竹のイラストと漢字の「竹」の間を読むと「こおり（こ+檻のイラスト）になります。」",
-        ANS: "答えは「オリーブ」です。"
+        HINT_CD_2: "答えが一般的な単語になることにも注意すると以下のように埋まります。1から6を順に読みましょう。",
+        ANS: "答えは「ききかいかい」です。"
     },
     QUESTION_HO_2: {
         COMBINATION_MESSAGE: "G" + COMBINATION_MESSAGE_END,
@@ -51,22 +51,28 @@ export const step2Message = {
         COMBINATION_MESSAGE: "D" + COMBINATION_MESSAGE_END,
         COMBINATION_ABLE_MESSAGE: "C、I" + COMBINATION_ABLE_MESSAGE_END,
         HINT_DC: "DとCの",
+        HINT_DC: "CとDの",
+        HINT_DC_1: "5色のピースをスケルトンの盤面として考えてみましょう。",
+        HINT_DC_2: "答えが一般的な単語になることにも注意すると以下のように埋まります。1から6を順に読みましょう。",
+        ANS_DC: "答えは「ききかいかい」です。",
         HINT_DI: "DとIの"
     },
     QUESTION_HE_2: {
         COMBINATION_MESSAGE: "O" + COMBINATION_MESSAGE_END,
         COMBINATION_ABLE_MESSAGE: "A" + COMBINATION_ABLE_MESSAGE_END,
         HINT_OA: "OとAの",
-        HINT_OA_1: "まずはスケルトンを埋めましょう。",
-        HINT_OA_2: "枠に書かれている五角形と八角形の間を読むと「かみ」になりそうです。",
+        HINT_OA_1: "まずはスケルトンを埋めましょう。5文字の単語から埋めると考えやすそうです。",
+        HINT_OA_2: "正しく埋めると以下のようになります。",
+        HINT_OA_3: "枠に書かれている五角形から八角形に向かって文字を拾うと「かみ」になりそうです。\n同様に三角形から六角形に向かって文字を拾いましょう。",
         ANS: "答えは「アビス」です。"
     },
     QUESTION_TO_1: {
         COMBINATION_MESSAGE: "A" + COMBINATION_MESSAGE_END,
         COMBINATION_ABLE_MESSAGE: "O" + COMBINATION_ABLE_MESSAGE_END,
         HINT_AO: "AとOの",
-        HINT_AO_1: "まずはスケルトンを埋めましょう。",
-        HINT_AO_2: "枠に書かれている五角形と八角形の間を読むと「かみ」になりそうです。",
+        HINT_AO_1: "まずはスケルトンを埋めましょう。5文字の単語から埋めると考えやすそうです。",
+        HINT_AO_2: "正しく埋めると以下のようになります。",
+        HINT_AO_3: "枠に書かれている五角形から八角形に向かって文字を拾うと「かみ」になりそうです。\n同様に三角形から六角形に向かって文字を拾いましょう。",
         ANS: "答えは「アビス」です。"
     },
     QUESTION_TO_2: {
