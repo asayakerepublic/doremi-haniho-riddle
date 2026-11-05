@@ -65,6 +65,18 @@ export const STEP1 = {
                 {
                     name: step1Message.QUESTION_RA.ILLUST_INSIDE,
                     content: step1Message.QUESTION_RA.ILLUST
+                },
+                {
+                    name: defaultMessage.HINT_NUM_1,
+                    content: step1Message.QUESTION_RA.HINT_1
+                },
+                {
+                    name: defaultMessage.HINT_NUM_2,
+                    content: step1Message.QUESTION_RA.HINT_2
+                },
+                {
+                    name: defaultMessage.ANS,
+                    content: step1Message.QUESTION_RA.ANS
                 }
             ]
         },
@@ -170,6 +182,19 @@ export const STEP1 = {
                 {
                     name: defaultMessage.ANS,
                     content: step1Message.QUESTION_MI.ANS
+                }
+            ]
+        },
+        {
+            name: step1Message.QUESTION_ANS.QUESTION,
+            children: [
+                {
+                    name: defaultMessage.HINT_NUM_1,
+                    content: step1Message.QUESTION_ANS.HINT_1
+                },
+                {
+                    name: defaultMessage.ANS,
+                    content: step1Message.QUESTION_ANS.ANS
                 }
             ]
         }
