@@ -194,7 +194,8 @@ export const STEP1 = {
                 },
                 {
                     name: defaultMessage.ANS,
-                    content: step1Message.QUESTION_ANS.ANS
+                    content: step1Message.QUESTION_ANS.ANS,
+                    image: "images/hint_1.jpg"
                 }
             ]
         }

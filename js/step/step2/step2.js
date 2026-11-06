@@ -6,6 +6,23 @@ export const STEP2 = {
     className: "step2",
     children: [
         {
+            name: step2Message.QUESTION_0.HINT,
+            children: [
+                {
+                    name: defaultMessage.HINT_NUM_1,
+                    content: step2Message.QUESTION_0.HINT_1
+                },
+                {
+                    name: defaultMessage.HINT_NUM_2,
+                    content: step2Message.QUESTION_0.HINT_2
+                },
+                {
+                    name: defaultMessage.HINT_NUM_3,
+                    content: step2Message.QUESTION_0.HINT_3
+                }
+            ]
+        },
+        {
             name: step2Message.COMBINATION_CHECK,
             content: step2Message.QUESTION_NUM,
             children: [
@@ -40,7 +57,7 @@ export const STEP2 = {
                         {
                             name: step2Message.QUESTION_TO_1.HINT_AO + defaultMessage.HINT_NUM_2,
                             content: step2Message.QUESTION_TO_1.HINT_AO_2,
-                            image: "images/hint_o.jpg"
+                            image: "images/hint_ao.jpg"
                         },
                         {
                             name: step2Message.QUESTION_TO_1.HINT_AO + defaultMessage.HINT_NUM_3,
@@ -96,7 +113,8 @@ export const STEP2 = {
                         },
                         {
                             name: step2Message.QUESTION_HO_1.HINT_CD + defaultMessage.HINT_NUM_2,
-                            content: step2Message.QUESTION_HO_1.HINT_CD_2
+                            content: step2Message.QUESTION_HO_1.HINT_CD_2,
+                            image: "images/hint_cd.jpg"
                         },
                         {
                             name: step2Message.QUESTION_HO_1.HINT_CD + defaultMessage.ANS,
@@ -126,7 +144,8 @@ export const STEP2 = {
                         },
                         {
                             name: step2Message.QUESTION_HE_1.HINT_DC + defaultMessage.HINT_NUM_2,
-                            content: step2Message.QUESTION_HE_1.HINT_DC_2
+                            content: step2Message.QUESTION_HE_1.HINT_DC_2,
+                            image: "images/hint_cd.jpg"
                         },
                         {
                             name: step2Message.QUESTION_HE_1.HINT_DC + defaultMessage.ANS,
@@ -138,7 +157,8 @@ export const STEP2 = {
                         },
                         {
                             name: step2Message.QUESTION_HE_1.HINT_DI + defaultMessage.HINT_NUM_2,
-                            content: step2Message.QUESTION_HE_1.HINT_DI_2
+                            content: step2Message.QUESTION_HE_1.HINT_DI_2,
+                            image: "images/hint_di.jpg"
                         },
                         {
                             name: step2Message.QUESTION_HE_1.HINT_DI + defaultMessage.ANS,
@@ -150,7 +170,8 @@ export const STEP2 = {
                         },
                         {
                             name: step2Message.QUESTION_HE_1.HINT_DO + defaultMessage.HINT_NUM_2,
-                            content: step2Message.QUESTION_HE_1.HINT_DO_2
+                            content: step2Message.QUESTION_HE_1.HINT_DO_2,
+                            image: "images/hint_ao.jpg"
                         },
                         {
                             name: step2Message.QUESTION_HE_1.HINT_DO + defaultMessage.HINT_NUM_3,
@@ -158,7 +179,8 @@ export const STEP2 = {
                         },
                         {
                             name: step2Message.QUESTION_HE_1.HINT_DO + defaultMessage.HINT_NUM_4,
-                            content: step2Message.QUESTION_HE_1.HINT_DO_4
+                            content: step2Message.QUESTION_HE_1.HINT_DO_4,
+                            image: "images/hint_do.jpg"
                         },
                         {
                             name: step2Message.QUESTION_HE_1.HINT_DO + defaultMessage.ANS,
@@ -312,7 +334,8 @@ export const STEP2 = {
                         },
                         {
                             name: step2Message.QUESTION_NI_2.HINT_ID + defaultMessage.HINT_NUM_2,
-                            content: step2Message.QUESTION_NI_2.HINT_ID_2
+                            content: step2Message.QUESTION_NI_2.HINT_ID_2,
+                            image: "images/hint_di.jpg"
                         },
                         {
                             name: step2Message.QUESTION_NI_2.HINT_ID + defaultMessage.ANS,
@@ -501,7 +524,7 @@ export const STEP2 = {
                         {
                             name: step2Message.QUESTION_HE_2.HINT_OA + defaultMessage.HINT_NUM_2,
                             content: step2Message.QUESTION_HE_2.HINT_OA_2,
-                            image: "images/hint_o.jpg"
+                            image: "images/hint_ao.jpg"
                         },
                         {
                             name: step2Message.QUESTION_HE_2.HINT_OA + defaultMessage.HINT_NUM_3,
@@ -518,10 +541,16 @@ export const STEP2 = {
                         {
                             name: step2Message.QUESTION_HE_2.HINT_OD + defaultMessage.HINT_NUM_2,
                             content: step2Message.QUESTION_HE_2.HINT_OD_2,
+                            image: "images/hint_ao.jpg"
                         },
                         {
                             name: step2Message.QUESTION_HE_2.HINT_OD + defaultMessage.HINT_NUM_3,
                             content: step2Message.QUESTION_HE_2.HINT_OD_3
+                        },
+                        {
+                            name: step2Message.QUESTION_HE_2.HINT_OD + defaultMessage.HINT_NUM_3,
+                            content: step2Message.QUESTION_HE_2.HINT_OD_4,
+                            image: "images/hint_do.jpg"
                         },
                         {
                             name: step2Message.QUESTION_HE_2.HINT_OD + defaultMessage.ANS,
@@ -533,7 +562,29 @@ export const STEP2 = {
         },
         {
             name: step2Message.COMBINATION_CORRECT,
-            content: "正しい組み合わせ"
+            content: step2Message.COMBINATION_ANS
+        },
+        {
+            name: step2Message.QUESTION_ANS.QUESTION,
+            children: [
+                {
+                    name: defaultMessage.HINT_NUM_1,
+                    content: step2Message.QUESTION_ANS.HINT_1
+                },
+                {
+                    name: defaultMessage.HINT_NUM_2,
+                    content: step2Message.QUESTION_ANS.HINT_2
+                },
+                {
+                    name: defaultMessage.HINT_NUM_3,
+                    content: step2Message.QUESTION_ANS.HINT_3
+                },
+                {
+                    name: defaultMessage.ANS,
+                    content: step2Message.QUESTION_ANS.ANS,
+                    image: "images/hint_2.jpg"
+                }
+            ]
         }
     ]
 };
