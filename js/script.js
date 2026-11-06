@@ -2,6 +2,7 @@
 import { STEP1 } from "./step/step1/step1.js";
 import { STEP2 } from "./step/step2/step2.js";
 import { STEP_LAST } from "./step/stepLast/stepLast.js";
+import { STEP_EXTRA } from "./step/stepExtra/stepExtra.js";
 
 const app = document.getElementById("app");
 
@@ -9,7 +10,8 @@ const app = document.getElementById("app");
 const steps = [
   STEP1,
   STEP2,
-  STEP_LAST
+  STEP_LAST,
+  STEP_EXTRA
 ];
 
 // ========================================
@@ -102,6 +104,7 @@ function showSteps() {
 
         ${isOpen ? `
           <div class="step-content open">
+          
             ${step.children.map((child, childIndex) =>
       renderItem(child, `${path}-${childIndex}`, 1)
     ).join("")}

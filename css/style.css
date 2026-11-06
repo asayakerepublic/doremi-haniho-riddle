@@ -79,17 +79,22 @@ header h1 {
 /* STEPごとの色 */
 
 .step1 {
-  background-color: #ef5350;
+  background-color: #f4474f;
   color: #ffffff;
 }
 
 .step2 {
-  background-color: #42a5f5;
+  background-color: #4386f5;
   color: #ffffff;
 }
 
 .step-last {
-  background-color: #4caf50;
+  background-color: #50d943;
+  color: #ffffff;
+}
+
+.step-extra {
+  background-color: #b34ce0;
   color: #ffffff;
 }
 
